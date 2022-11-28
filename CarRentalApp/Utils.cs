@@ -53,6 +53,7 @@ namespace CarRentalApp
                 sBuilder.Append(data[i].ToString("x2"));
             }
 
+            //return sbuilder
             return sBuilder.ToString();
         }
     }
